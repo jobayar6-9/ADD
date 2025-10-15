@@ -16,7 +16,7 @@ jwt_token = None
 
 def get_jwt_token():
     global jwt_token
-    url = "https://jnl-gen-jwt.vercel.app/token?uid=4073842111&password=6F217001E5ACB286A00C89F5D0870CD9C8A79791CDA38BDC7A21579E4F47322B"
+    url = "https://jwt-new-khaki.vercel.app/token?uid=4122992948&password=896F6C7EA0E34803C98B182BC9545237214EA7D696368B50A30155209F497D1F"
     try:
         response = httpx.get(url, timeout=10)
         if response.status_code == 200:
